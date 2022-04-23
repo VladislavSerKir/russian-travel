@@ -1,0 +1,5 @@
+.photo-grid__item {
+    max-width: 284px;
+    /* padding-bottom: 100%; */
+    align-self: center;
+}

@@ -1,0 +1,10 @@
+.cover {
+    position: relative;
+    height: 740px;
+    /* padding-bottom: 740px; */
+
+    z-index: 1;
+    /* top: 245px; */
+    text-align: center;
+    margin: 0 auto;
+}
