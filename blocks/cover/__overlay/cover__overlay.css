@@ -1,11 +1,15 @@
 .cover__overlay {
     z-index: 1;
-    padding-top: 245px;
+    /* padding-top: 245px; */
     margin: 0 auto;
     /* position: absolute; */
-    /* top: 245px; */
+    top: 245px;
+    padding: 245px 0;
     /* transform: translateX(50%); */
     text-align: center;
+    opacity: 1;
+    /* left: 50%; */
+    /* right: 100%; */
 }
 
 /* .cover__overlay {
@@ -14,3 +18,24 @@
     text-align: center;
     margin: 0 auto;
 } */
+
+@media screen and (max-width: 1183px) {
+    .cover__overlay {
+        top: 195px;
+        padding: 245px 0;
+    }
+}
+
+@media screen and (max-width: 976px) {
+    .cover__overlay {
+        top: 115px;
+        padding: 115px 0;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .cover__overlay {
+        top: 33px;
+        padding: 33px 0;
+    }
+}

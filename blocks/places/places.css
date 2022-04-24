@@ -7,3 +7,35 @@
     justify-content: space-between;
     gap: 80px;
 }
+
+@media screen and (max-width: 1183px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 976px) {
+    .places {
+        padding: 92px 24px;
+    }
+}
+
+@media screen and (max-width: 927px) {
+    .places {
+        padding: 88px 24px 90px;
+        gap: 73px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .places {
+        padding: 64px 24px 66px;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .places {
+        padding: 64px 0px 66px;
+    }
+}

@@ -1,10 +1,17 @@
 .cover {
     position: relative;
-    height: 740px;
-    /* padding-bottom: 740px; */
-
+    /* height: 740px; */
+    max-width: 1184px;
     z-index: 1;
     /* top: 245px; */
     text-align: center;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1183px) {
+    .cover {
+        max-width: 1183px;
+    }
 }

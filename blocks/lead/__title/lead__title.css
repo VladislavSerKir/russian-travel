@@ -7,3 +7,24 @@
     text-align: center;
     margin: 0;
 }
+
+@media screen and (max-width: 853px) {
+    .lead__title {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        padding: 0 16px;
+    }
+}
+
+/* @media screen and (max-width: 387px) {
+    .lead__title {
+
+    }
+} */
