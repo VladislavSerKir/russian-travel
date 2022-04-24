@@ -10,12 +10,6 @@
     margin-bottom: 32px;
 }
 
-/* @media screen and (max-width: 1183px) {
-    .cover__title {
-        top: 195px;
-        transform: translateX(50%);
-    }
-} */
 @media screen and (max-width: 719px) {
     .cover__title {
         font-size: 32px;

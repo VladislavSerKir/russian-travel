@@ -1,23 +1,11 @@
 .cover__overlay {
     z-index: 1;
-    /* padding-top: 245px; */
     margin: 0 auto;
-    /* position: absolute; */
     top: 245px;
     padding: 245px 0;
-    /* transform: translateX(50%); */
     text-align: center;
     opacity: 1;
-    /* left: 50%; */
-    /* right: 100%; */
 }
-
-/* .cover__overlay {
-    z-index: 1;
-    top: 245px;
-    text-align: center;
-    margin: 0 auto;
-} */
 
 @media screen and (max-width: 1183px) {
     .cover__overlay {
