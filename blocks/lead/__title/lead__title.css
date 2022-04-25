@@ -6,12 +6,20 @@
     line-height: 100px;
     text-align: center;
     margin: 0;
+    padding: 0 140px;
+}
+
+@media screen and (max-width: 1183px) {
+    .lead__title {
+        padding: 0 126px;
+    }
 }
 
 @media screen and (max-width: 853px) {
     .lead__title {
         max-width: 720px;
         margin: 0 auto;
+        padding: 0 45px;
     }
 }
 
