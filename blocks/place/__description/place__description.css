@@ -1,5 +1,23 @@
+.place__description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}
+
 @media screen and (max-width: 387px) {
     .place__description {
         padding: 0 16px;
+    }
+}
+
+@media screen and (max-width: 1183px) {
+    .place__description {
+        row-gap: 22px;
+    }
+}
+
+@media screen and (max-width: 927px) {
+    .place__description {
+        row-gap: 25px;
     }
 }
